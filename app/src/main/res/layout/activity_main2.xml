@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Topic "
+        android:layout_marginLeft="100dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/philosophy"
+        android:onClick="philosophyOne"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:text="Philosophy" />
+
+    <Button
+        android:id="@+id/religion"
+        android:onClick="religion"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:text="Religion" />
+    <Button
+        android:id="@+id/mathematics"
+        android:layout_width="150dp"
+        android:onClick="mathematics"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:text="Mathematics" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@+id/textView"
+        android:onClick="StartActivity"
+        android:text="Exit" />
+
+
+
+
+
+</LinearLayout>
