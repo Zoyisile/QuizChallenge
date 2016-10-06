@@ -4,12 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <!-- Here you put the rest of your current view-->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BCAAA4"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.admin.quizchallenge.Main3Activity">
 
     <ImageView android:id="@+id/image_view"
         android:layout_width="match_parent"
@@ -18,48 +19,15 @@
         android:maxWidth="1000dp"
         android:maxHeight="42dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/philosophy" />
+        android:src="@drawable/religiona" />
 
     <TextView
-        android:id="@+id/title_text"
+        android:id="@+id/aristocle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="16sp"
-        android:text="Philosophy is a study of knowledge?"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
-        android:textStyle="bold" />
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/radio_group_one"
-        android:orientation="horizontal">
-        <RadioButton
-            android:id="@+id/yes_radio_butt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="90dp"
-            android:text="True"
-            android:onClick="onRadioButtonClicked"
-            android:textAppearance="?android:textAppearanceMedium" />
-        <RadioButton
-            android:id="@+id/no_radio_butto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:text="False"
-            android:onClick="onRadioButtonClicked"
-            android:textAppearance="?android:textAppearanceMedium" />
-    </RadioGroup>
-
-    <TextView
-        android:id="@+id/title_text_vie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="16sp"
-        android:text="Did Ujamaa emerge as an economic philosopher, during the period of African Socialist Philosophy?"
+        android:text="There are about 34,000 Christian denominations in the world."
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="#4689C8"
         android:textStyle="bold" />
@@ -68,14 +36,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/yes_radio_but"
+            android:id="@+id/plato"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="90dp"
             android:text="True"
             android:textAppearance="?android:textAppearanceMedium" />
         <RadioButton
-            android:id="@+id/no_radio_bu"
+            android:id="@+id/plato_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -84,12 +52,12 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/title_text_vi"
+        android:id="@+id/raini"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="16sp"
-        android:text=" Augustine of Hippo was a cornerstone of Christian philosophy and theology."
+        android:text="The Bible was written in three languages: Hebrew, Aramaic, and Koine Greek."
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="#4689C8"
         android:textStyle="bold" />
@@ -98,14 +66,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/yes_radio_b"
+            android:id="@+id/raini_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="90dp"
             android:text="True"
             android:textAppearance="?android:textAppearanceMedium" />
         <RadioButton
-            android:id="@+id/no_radio"
+            android:id="@+id/raini_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -114,12 +82,12 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/title_text_v"
+        android:id="@+id/gala_loe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="16sp"
-        android:text="African political and economic philosophical developments also had a notable impact on the anti-colonial movements of many non-African peoples around the world."
+        android:text="The 12 disciples were not allowed to carry food, money, or extra clothing."
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="#4689C8"
         android:textStyle="bold" />
@@ -128,14 +96,44 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/yes_radi"
+            android:id="@+id/gala_loe_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="90dp"
             android:text="True"
             android:textAppearance="?android:textAppearanceMedium" />
         <RadioButton
-            android:id="@+id/no_rad"
+            android:id="@+id/gala_loe_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="False"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16sp"
+        android:text="John was the only apostle who witnessed the crucifixion of Jesus."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/einstain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="True"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/einstain_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -149,7 +147,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="16sp"
-        android:text="In the Horn of Africa, there are a number of sources documenting the development of a distinct Ethiopian philosophy from the first millennium onwards."
+        android:text="There are more than 10,000 distinct religious groups in the world."
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="#4689C8"
         android:textStyle="bold" />
@@ -194,6 +192,5 @@
         android:layout_below="@+id/textView"
         android:onClick="StartActivity"
         android:text="Results" />
-
 </LinearLayout>
 </ScrollView>

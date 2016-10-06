@@ -15,9 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity"></activity>
-        <activity android:name=".Religion"></activity>
-        <activity android:name="Philosophy"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Philosophy" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity"></activity>
     </application>
 
 </manifest>

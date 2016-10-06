@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BCAAA4"
     android:orientation="vertical">
     <TextView
         android:id="@+id/title_text_view"
@@ -12,7 +13,7 @@
         android:text="Choose a Topic "
         android:layout_marginLeft="100dp"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#4689C8"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="16dp"
         android:textStyle="bold" />
 
@@ -20,6 +21,7 @@
     <Button
         android:id="@+id/philosophy"
         android:onClick="philosophyOne"
+        android:background="#8BC34A"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -29,15 +31,18 @@
     <Button
         android:id="@+id/religion"
         android:onClick="religion"
+        android:background="#FFFF00"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="120dp"
-        android:text="Religion" />
+        android:text="Religion"
+        />
     <Button
         android:id="@+id/mathematics"
         android:layout_width="150dp"
         android:onClick="mathematics"
+        android:background="#D500F9"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="120dp"
@@ -48,6 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="center"
+        android:textColor="#FFFFFF"
+        android:background="#EF5350"
         android:layout_marginTop="90dp"
         android:layout_marginLeft="150dp"
         android:layout_below="@+id/textView"
